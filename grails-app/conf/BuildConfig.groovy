@@ -60,6 +60,8 @@ grails.project.dependency.resolution = {
 
         compile ':cache:1.0.1'
 		  
+		  compile ":quartz:latest.integration"
+		  compile ":quartz-monitor:latest.integration"
 		  compile ":spring-batch:latest.integration"
 		  compile ":console:latest.integration"
     }
